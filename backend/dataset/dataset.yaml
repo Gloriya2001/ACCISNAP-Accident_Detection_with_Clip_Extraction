@@ -1,0 +1,14 @@
+path: ../dataset  # Root dataset folder
+train: train/images  # Train images folder
+val: valid/images  # Validation images folder
+test: test/images  # Test images folder
+
+nc: 3  # Number of classes
+names: ['accident', 'car', 'fire']
+
+roboflow:
+  workspace: yolovideos
+  project: accident-detection-bcc2v
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolovideos/accident-detection-bcc2v/dataset/10
